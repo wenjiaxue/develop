@@ -1,0 +1,32 @@
+baseurl = "http://wenjiaxue.github.io/"
+languageCode = "en-gb"
+title = "WENJIA"
+theme = "hpstr-hugo-theme"
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+disqusShortname = "algorithmist"
+googleAnalytics = "UA-111479944-1"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/wenjiaxue/develop"
+
+[params]
+	subtitle = "Happy and up ..."
+	[params.author]
+		name = "Wenjia Xue"
+		github = "wenjiaxue/wenjiaxue.github.io"
+
+	[params.image]
+	  feature = "/images/geiranger-1508630_1920.jpg"
+	  credit = "dargadgetz"
+	  creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"

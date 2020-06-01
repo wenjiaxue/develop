@@ -1,0 +1,13 @@
+[posts]
+	title = "All posts"
+[posts.image]
+          feature = "images/fjord-287173_1920.jpg"
+          credit = "dargadgetz"
+          creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
+
+[tags]
+	title = "All tags"
+[tags.image]
+          feature = "images/landscape-1536932_1920.jpg"
+          credit = "dargadgetz"
+          creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
