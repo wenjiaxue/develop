@@ -7,3 +7,13 @@ tags: [Sommerles]
 - Create a user here:  https://altom.sommerles.no/information-for-parent/, before Tuesday, June 2nd.
 
 - List:
+
+```{r, echo = FALSE, layout="l-body-outset"}
+library(rmarkdown)
+book <- c('Kaptein Skerkk','Operasjon Vindkast')
+startdate <- as.Date(c('2020-06-01','2020-06-01'))
+enddate <- as.Date(c('2020-06-01','2020-06-01'))
+employ.data <- data.frame(book, startdate, enddate)
+paged_table(head(employ.data))
+```
+
